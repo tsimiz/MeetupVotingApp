@@ -1,0 +1,9 @@
+{
+  "name": "meetup-voting-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Azure Functions API for meetup topic votes",
+  "dependencies": {
+    "@azure/data-tables": "13.3.0"
+  }
+}

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#171333">
+    <meta name="description" content="Pick a topic for the Azure & Friends meetup panel and follow the live vote.">
+    <title>Azure & Friends — Panel vote</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <main class="shell">
+      <header class="masthead">
+        <p class="eyebrow">/// LIVE FROM THE MEETUP</p>
+        <h1>Azure <span>&amp;</span><br>Friends</h1>
+        <p class="tagline">You pick the panel. We bring the pixels.</p>
+      </header>
+
+      <section class="poll panel" aria-labelledby="poll-title">
+        <div class="poll-heading">
+          <div>
+            <p class="eyebrow" id="edition">COMMUNITY POLL · 01</p>
+            <h2 id="poll-title">Choose our next<br>panel discussion</h2>
+          </div>
+          <span class="live-badge"><span class="live-dot"></span> LIVE</span>
+        </div>
+
+        <p id="intro" class="intro">Tap the topic you’d love to hear about. Every vote counts!</p>
+        <div id="topic-list" class="topic-list" aria-live="polite"></div>
+        <p id="status" class="status" role="status" aria-live="polite">Connecting to the vote…</p>
+
+        <a id="view-link" class="view-link" href="/?view=votes">See live results <span aria-hidden="true">↗</span></a>
+      </section>
+
+      <footer class="footer">ONE COMMUNITY <span>✦</span> MANY BIG IDEAS</footer>
+    </main>
+  </body>
+</html>
